@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "tailwindcss-cli": "^0.1.2"
+  },
+  "scripts": {
+    "watch": "tailwind -i ./src/input.css -o ./dist/output.css --watch"
+  }
+}

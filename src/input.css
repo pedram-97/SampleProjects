@@ -1,0 +1,11 @@
+@tailwind base;
+body {
+    background: rgb(111,227,225);
+    background: linear-gradient(0deg, rgba(111,227,225,1) 0%, rgba(82,87,229,1) 100%); 
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+};
+@tailwind components;
+@tailwind utilities;
